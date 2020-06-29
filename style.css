@@ -1,0 +1,141 @@
+	/*style.css */
+		#goal{
+			color:red;
+			font-size:1.5em;
+			text-align:center;
+			border-top:1px solid rgb(222,222,222);
+			border-bottom:1px solid rgb(222,222,222);
+			padding-top:1.5vh;
+			padding-bottom:1.5vh;
+		}
+		.list-headings{
+			color:rgb(0,153,0);
+			text-align:left;
+			font-size:  1.5em;
+		}
+		body{
+			background-color: rgb(34,32,32);
+			font-family: "Helvetica", sans-serif;
+			color:white;
+		}
+
+
+	
+		.profile-photo{
+			
+			margin-right:20vw;
+			margin-top:-2vh;
+			margin-left:5vw;
+			
+			float: right;
+			height: 60vh;
+
+		}
+
+		.intro-paragraphs{
+			margin-left: 17vw; 
+			line-height:24px;
+			text-align: justify;
+		}
+
+		#intro{
+			margin-top: 10vh ;
+			margin-bottom: 2em
+		}
+
+		#intro-part2{
+			
+		}
+
+		.list-items{
+			text-align:left;
+			line-height: 2em;
+			font-size: 1.2rem;
+			margin-top: -2vh;
+		}
+
+		.lists{
+			margin-left: 20vw;
+		}
+
+		#intro-part3{
+			margin-right:40vw;
+		}
+
+		/* This is the mianstudios logo */
+		img.header{
+			width:13vw;
+			position:absolute;
+			left:2vw;
+			top:-1vh;
+		}
+
+		/* This surrounds the navigation bar */
+		#menu-bar-box{
+			background-color:rgba(0,0,0, 0.3);
+			background-opacity:0.4;
+			color:white;
+			width:35%;
+			height:5%;
+			position:absolute;
+			right:2.75vw;
+			top:5vh;
+			padding-bottom:1.25vh;
+
+		}
+
+	
+		
+
+
+
+		ul.menu-bar li{
+			font-weight:bold;
+			list-style-type:none;
+			margin-left:1vw;
+			margin-right:1vw;
+			margin-bottom:0.5vh;
+			padding-bottom:3vh;
+			padding-right:0vw;
+			padding-left:0vw;
+			
+			display:inline;
+		
+
+		}
+		
+		
+		/* This is the cityscape photo for the hero photo */
+		#header-photo{
+			background-image:url(cityscape-header.jpg);
+			margin-top:-2vh;
+			margin-left:-2vh;
+			margin-right:-2vh;
+			padding-top:0;
+			height:35vh;
+			overflow:hidden;
+			background-position:center;
+			background-repeat:no-repeat;
+			background-size:cover;
+			position:relative;
+		}
+	
+			#blog-title{
+			font-family:"Proxima Nova", sans-serif;
+			font-size:24px;
+			text-align:center;
+			margin-top:15vh;
+			text-shadow: 1px 1px;
+		}
+
+			.post-header{
+				margin-top:-3vh;
+			}
+
+			a:visited{
+				color:rgb(188, 117, 255);
+			}
+
+			a:link{
+				color:rgb(91,185,252);
+			}
