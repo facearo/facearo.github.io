@@ -18,12 +18,10 @@
 			font-family: "Helvetica", sans-serif;
 			color:white;
 		}
-
-
 	
 		.profile-photo{
 			
-			margin-right:20vw;
+			margin-right:8vw;
 			margin-top:-2vh;
 			margin-left:5vw;
 			
@@ -33,7 +31,7 @@
 		}
 
 		.intro-paragraphs{
-			margin-left: 17vw; 
+			margin-left: 5vw; 
 			line-height:24px;
 			text-align: justify;
 		}
@@ -71,22 +69,23 @@
 		}
 
 		/* This surrounds the navigation bar */
+		
 		#menu-bar-box{
-			background-color:rgba(0,0,0, 0.3);
-			background-opacity:0.4;
+			/*background-color:rgba(0,0,0, 0.3);
+			background-opacity:0.4; */
 			color:white;
 			width:35%;
 			height:5%;
 			position:absolute;
 			right:2.75vw;
 			top:5vh;
-			padding-bottom:1.25vh;
-
+			padding-bottom:1vh;
 		}
 
-	
-		
 
+		.menu-bar{
+
+		}
 
 
 		ul.menu-bar li{
@@ -106,8 +105,8 @@
 		
 		
 		/* This is the cityscape photo for the hero photo */
-		#header-photo{
-			background-image:url(cityscape-header.jpg);
+		.header-photo{
+			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("cityscape-header.jpg");
 			margin-top:-2vh;
 			margin-left:-2vh;
 			margin-right:-2vh;
@@ -120,8 +119,9 @@
 			position:relative;
 		}
 	
-			#blog-title{
+			.blog-title{
 			font-family:"Proxima Nova", sans-serif;
+			color:white;
 			font-size:24px;
 			text-align:center;
 			margin-top:15vh;
