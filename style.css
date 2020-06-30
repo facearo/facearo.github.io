@@ -89,6 +89,7 @@
 
 		ul.menu-bar li{
 			font-weight:bold;
+			text-shadow: 0.5px 0.5px;
 			list-style-type:none;
 			margin-left:1vw;
 			margin-right:1vw;
@@ -124,7 +125,7 @@
 			font-size:24px;
 			text-align:center;
 			margin-top:15vh;
-			text-shadow: 1px 1px;
+			text-shadow: 1.5px 1.5px;
 		}
 
 			.blog-title::after{
@@ -135,7 +136,7 @@
 				margin-top:-3vh;
 				width:23%;
 				padding-top:0vh;
-				border-bottom: 1px solid white;
+				border-bottom: 4px solid white;
 			}
 
 			.post-header{
@@ -177,7 +178,7 @@
 			.fa-instagram{
 				margin-left:20vw;
 				margin-top:4vh;
-				background:#125688;
+				background:#bc2a8d;
 				color:white;
 			}
 
@@ -247,7 +248,7 @@
 
 			
 			.goto-photos{
-				width:33.33%;
+				max-width:33.33%;
 				opacity:0.5;
 				margin-bottom:0;
 			}
@@ -257,14 +258,48 @@
 				float:left;
 			}
 			
-			#gallery-button{
-				position:absolute;
-				bottom:5vh;
-				left:10vh;
 
-				text-align:center;
-	
+			.button-container{
+				width:100%;
+				position:relative;
 			}
+
+			.button-style{
+				font-weight:bold;
+				font-size:3vh;color:white;
+				font-family:"Proxima Nova", sans-serif;
+				background:transparent;
+				border:2px solid white;
+				height:10vh;
+				cursor:pointer;
+				width:20vh;
+				bottom:-27vh;
+			
+				
+			}
+
+			.button-style:hover{
+				opacity:0.7;
+			}
+		
+				#gallery-button{
+				position:absolute;
+				right:79%;
+				
+			}
+
+				#resume-button{
+					position:absolute;
+					right:45%
+					
+				}
+
+				#blog-button{
+					position:absolute;
+					right:11%;
+					
+				}
+
 
 			#resume-photo{
 				float:left;
@@ -282,6 +317,7 @@
 				margin-top:0;
 				margin-right:-1vw;
 				margin-left:-1vw;
+				margin-bottom:0;
 				color:white;
 				box-sizing:border-box;
 
