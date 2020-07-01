@@ -97,12 +97,10 @@
 			padding-bottom:3vh;
 			padding-right:0vw;
 			padding-left:0vw;
-			display:inline;s
-		}
+			
+			display:inline;
+		
 
-		ul.menu-bar li:hover{
-			opacity:0.8;
-			cursor:pointer;
 		}
 		
 		
@@ -121,19 +119,16 @@
 			position:relative;
 		}
 	
-			.page-title{
+			.blog-title{
 			font-family:"Proxima Nova", sans-serif;
 			color:white;
 			font-size:24px;
 			text-align:center;
 			margin-top:15vh;
-			text-shadow: 1px 1px;
+			text-shadow: 1.5px 1.5px;
 		}
 
-
-
-
-			#home-title::after{
+			.blog-title::after{
 				content:"";
 				display:block;
 				margin-left:auto;
@@ -141,18 +136,7 @@
 				margin-top:-3vh;
 				width:23%;
 				padding-top:0vh;
-				border-bottom: 3px solid white;
-			}
-
-			#blog-title::after{
-				content:"";
-				display:block;
-				margin-left:auto;
-				margin-right:auto;
-				margin-top:-3vh;
-				width:8%;
-				padding-top:0vh;
-				border-bottom: 3px solid white;
+				border-bottom: 4px solid white;
 			}
 
 			.post-header{
@@ -166,8 +150,6 @@
 			a:link{
 				color:rgb(91,185,252);
 			}
-
-
 
 
 
@@ -189,9 +171,8 @@
 				opacity:0.7;
 			}
 
-			.fa:visited, .fa:link, a.page-links:visited, a.page-links:link {
+			.fa:visited, .fa:link {
 					color:white;
-					text-decoration: none;
 				}
 
 			.fa-instagram{
@@ -298,10 +279,7 @@
 			}
 
 			.button-style:hover{
-				transition-duration: 300ms, 300ms;
-    transition-timing-function: cubic-bezier(0.694, 0, 0.335, 1), cubic-bezier(0.694, 0, 0.335, 1);
-    transition-delay: 0s, 0s;
-				background:rgb(34, 32, 32);
+				opacity:0.7;
 			}
 		
 				#gallery-button{
@@ -349,24 +327,6 @@
 
 
 
-		/* The following are style rules specific to the blog page */
-
-		.header-photo-blog{
-			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("toronto-header.jpg");
-			margin-top:-2vh;
-			margin-left:-2vh;
-			margin-right:-2vh;
-			padding-top:0;
-			height:35vh;
-			overflow:hidden;
-			background-position:center;
-			background-repeat:no-repeat;
-			background-size:cover;
-			position:relative;
-		}
-
-
-		
 
 
 
