@@ -37,39 +37,9 @@
 			grid-column:1/4;
 			grid-row:3;
 		}
+
 		
-	@media screen and (orientation:portrait){
-			#footer{
-				grid-column:1/4;
-				grid-row:4;
-			}
 
-			.paragraph-container{
-					grid-column:1/4;
-					grid-row:3;
-					margin-right:2vw;
-				}
-
-			.headshot-container{
-				grid-column:2;
-				grid-row:2;
-
-				}
-
-				.profile-photo{
-					float:none;
-					height:70vh;
-					margin-bottom:-5vh;
-				}	
-
-				#social-buttons{
-					margin-left: 5vw;
-				}
-
-				.fa-instagram{
-					margin-left:10vw;
-				}
-		}
 	
 		.profile-photo{
 			margin-top:6vh;
@@ -82,9 +52,11 @@
 
 		}
 
+
+	
 		.intro-paragraphs{
 			margin-left: 5vw; 
-			line-height:24px;
+			line-height:2rem;
 		}
 
 			#intro{
@@ -116,7 +88,7 @@
 			width:35%;
 			height:5%;
 			position:absolute;
-			right:2.75vw;
+			right:3vw;
 			top:5vh;
 			padding-bottom:1vh;
 		}
@@ -229,7 +201,7 @@
 					}
 
 				.fa-instagram{
-					margin-left:20vw;
+					margin-left:15vw;
 					margin-top:4vh;
 					background:#bc2a8d;
 					color:white;
@@ -349,6 +321,56 @@
 				}
 
 
+	@media screen and (max-width:427px){
+			#footer{
+				grid-row:5;
+			}
+
+			#paragraph-container{
+				grid-row:3/5;
+			}
+		}
+
+
+
+
+	@media screen and (max-width:972px){
+			#footer{
+				grid-column:1/4;
+				grid-row:4;
+			}
+
+			.paragraph-container{
+					grid-column:1/4;
+					grid-row:3/4;
+					margin-right:2vw;
+				}
+
+			.headshot-container{
+				grid-column:2;
+				grid-row:2;
+
+				}
+
+			.profile-photo{
+			float:none;
+			height:70vh;
+			margin-bottom:-5vh;
+			margin-left:auto;
+			margin-right:auto;
+		}	
+			
+			.fa {
+				border-radius:50%;
+				text-align:center;
+				width:2vw;
+			}
+
+			.fa-instagram{
+				margin-left:11vw;
+			} 
+
+		}
 
 
 
