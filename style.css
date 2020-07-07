@@ -72,8 +72,7 @@
 		/* This is the mianstudios logo */
 		img.header{
 			width:13vw;
-			max-width:13vw;
-			min-width:5vw;
+			min-width:10vw;
 			position:absolute;
 			left:2vw;
 			top:-1vh;
