@@ -210,7 +210,7 @@
 				opacity:0.7;
 			}
 
-				.fa:visited, .fa:link, a.page-links:visited, a.page-links:link {
+				.fa:visited, .fa:link, .fa:active, a.page-links:visited, a.page-links:link {
 						color:white;
 						text-decoration: none;
 					}
@@ -418,6 +418,7 @@
 			.fa-instagram{
 				margin-left:5vw;
 			}
+			
 
 			
 		}
@@ -524,6 +525,100 @@
 
 		}
 
+		@media screen and (max-width:997px){
+			
+			#grid{
+				grid-template-columns: 1fr 1fr 1fr;
+			}
+			#gallery-photo, #typewriter-photo, #resume-photo{
+				float:none;
+				grid-column:2;
+			}
+
+			.footer-images{
+				margin-top:10vh;
+				width:100%;
+			}
+
+			.goto-gallery{
+				grid-column:2;
+				grid-row:4;
+			}
+
+
+			.goto-photos{
+				width:60vw;
+				max-width:60vw;
+				
+				margin-left:auto;
+				margin-right:auto;
+				margin-top:0;
+				margin-bottom:0;
+		
+				display:block;
+			}
+
+			#gallery-photo{
+				grid-column:1/4;
+
+			}
+			#resume-photo{
+				grid-column:1/4;
+			}
+
+			#typewriter-photo{
+				grid-column:1/4;
+				margin-bottom:2vh;
+				
+			}
+				
+
+			.button-style{
+				position:relative
+			}
+
+			#gallery-button, #resume-button, #blog-button{
+				margin-top:0;
+				margin-bottom:0;
+				margin-right:0;
+				margin-left:0;
+				right:45%;
+	
+			}
+
+			#gallery-button{
+				bottom:80%;
+				
+
+			}
+
+			#resume-button{
+				bottom:50%;
+			
+			}
+
+			#blog-button{
+				bottom:20%;
+				
+			}
+
+
+		}
+
+		
+
+
+@media screen and (max-width:414px){
+	#gallery-button, #resume-button, #blog-button{
+				right:30%;
+			}
+}
+
+@media screen and (max-width:768px){
+	#gallery-button, #resume-button, #blog-button{
+				right:38%;
+			}
+}
 
 
 
