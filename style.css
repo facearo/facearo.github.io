@@ -4,6 +4,7 @@
 			background-color: rgb(34,32,32);
 			font-family: "Helvetica", sans-serif;
 			color:white;
+			overflow-x:hidden;
 
 		}
 
@@ -213,6 +214,14 @@
 				.fa:visited, .fa:link, .fa:active, a.page-links:visited, a.page-links:link {
 						color:white;
 						text-decoration: none;
+					}
+
+					.fa:active{
+							background:transparent;
+					}
+
+					.fa:focus{
+						outline:none;
 					}
 
 				.fa-instagram{
@@ -488,26 +497,39 @@
 				right:0vw;
 				height:100vh;
 				top:0vh;
+				margin:0 auto;
 				background-color:rgb(34, 32, 32);
-				width:40%;
+				width:100%;
+
+				/*
 				display:flex;
 				flex-direction:column;
 				align-items:center;
+
+				*/
 				transform:translateX(100%);
 				transition: transform 0.5s ease-in;
+				padding:20px;
 
 			}
 
 			ul.menu-bar li{
-				margin-top:8vh;
-				margin-right:3vw;
-				font-size:1.4rem;
+				margin-top:10vh;
+				margin-bottom:-5vh;
+				font-weight:none;
+				text-shadow:none;
+				margin-right:auto;
+				margin-left:auto;
+				font-size:1rem;
 				display:block;
 				border-top: 1px dotted white;
 				border-bottom: 1px dotted white;
 				text-align:center;
 				padding:18px;
 
+			}
+
+			.menu-bar{
 			}
 
 
@@ -638,6 +660,9 @@
 			background-size:cover;
 			position:relative;
 		}
+
+
+		
 
 
 		

@@ -5,37 +5,85 @@
 	<title>Blog</title>
 	<!-- Link to the css stylesheet -->
 	<link rel = "stylesheet" type = "text/css" href = "style.css" />
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
 </head>
 <body>
 	<!--Header and Navigation Bar-->
+<div class="header-container">s
 		<div class="header-photo-blog"> 
 			<div class="page-title" id="blog-title">
-				<h1>Blog</h1>
+					<h1>Blog</h1>
 			</div>
 		</div>
-   		<img src="logommianstudios.png" alt= "Mian Studios Logo" class="header">
-   	<div id="menu-bar-box">
-   		<ul class="menu-bar">
-   			<div class="menu-bar-borders">
-   			<a href="index.html" class="page-links"><li>Home</li> </a>
-   			<a href="blog.html" class="page-links"><li>Blog</li> </a>
-   			<a href="resume.html" class="page-links"><li>Resume</li> </a>
-   			<a href="gallery.html" class="page-links"><li>Gallery</li> </a>
-   			<a href="contact.html" class="page-links"><li>Contact</li></a>
-   			</div>
-   		</ul>
+
+		<!-- The Mian Studios Logo at the top left of the header -->
+		<img src="logommianstudios.png" alt= "Mian Studios Logo" class="header">
+
+		<!-- This div structure is for the navigation bar and its componentnts-->
+		<div class="menu-bar-box">
+		   		<ul class="menu-bar">
+		   			<div class="menu-bar-borders">
+			   			<a href="index.html" class="page-links"><li>Home</li> </a>
+			   			<a href="blog.html" class="page-links"><li>Blog</li> </a>
+			   			<a href="resume.html" class="page-links"><li>Resume</li> </a>
+			   			<a href="gallery.html" class="page-links"><li>Gallery</li> </a>
+		   			</div>
+		   		</ul>
+				
+		</div>
+
+		<div class="burger">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
+				</div>
 	</div>
+
+	<p>A collection of my thoughts, opinions, and perspectives all in one place. I may write a few articles about my program and universities for those that may be interested. During my co-op terms, I will write about the company and my position if I am allowed to. As always, feel free to contact me for any questions regarding high school, university or pretty much anything! I am always happy to chat :) </p>
 	
 
 	<div class="new-post">
-		<h3 id="post-name">Post name</h3>
+		<h3 class="post-name">Post name</h3>
 		<p>Upload date</p>
-
-
-
-
 	</div>
 
 
+
+
+
+	<div id="footer">
+		<div class="button-container">
+			<div class="footer-images">
+				<div class="goto-gallery">
+					<img src="gallery-photo.jpg" alt="" class="goto-photos" id="gallery-photo">
+					<a href="gallery.html"><button id="gallery-button" class="button-style">Gallery</button></a>
+				</div>
+
+				<div class="goto-resume">
+					<img src="resume-photo.jpg" alt="" class="goto-photos" id="resume-photo">
+					<a href="resume.html"><button id="resume-button" class="button-style">Resume</button></a>
+				</div>
+
+				<div class="goto-blog">				
+					<img src="typewriter-photo.jpg" alt="" class="goto-photos" id="typewriter-photo">
+					<a href="blog.html"><button id="blog-button" class="button-style">Blog</button></a>	
+				</div>
+
+			</div>
+			<div class="goto-button-container">
+					
+				</div>
+		
+
+			<div class="footer-text">
+				<p> &copy; Mian Studios. All rights reserved. All photos on this webpage are of fair use under the Creative Commons licenses.</p>
+			</div>
+		</div>
+	</div>	
+	
+
+
+
+<script src="nav.js"></script>
 </body>
 </html>
