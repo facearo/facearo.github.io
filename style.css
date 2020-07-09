@@ -646,7 +646,6 @@
 
 
 		/* The following are style rules specific to the blog page */
-
 		.header-photo-blog{
 			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("typewriter-header.jpg");
 			margin-top:-2vh;
@@ -662,7 +661,58 @@
 		}
 
 
+		#blog-intro{
+			margin-left:8vw;
+			margin-right:8vw;
+			line-height:1.5rem;
+	
+
+		}
+
+
+		.post-name{
+			font-family:"Source Sans Pro", sans-serif;
+			font-weight:bold;
+			font-size:24px;
+			margin-left:8vw;
+		}
+
+		.post-date{
+			text-align:right;
+			margin-top:-6vh;
+			margin-right:8vw;
+		}
+			
+		hr{
+			margin-left:6vw;
+			margin-right:6vw;
+			margin-top:5vh;
+		}	
+
+		.post-body{
+			line-height:1.5rem;
+			margin-left:8vw;
+			margin-right:8vw;
+			margin-bottom:3vh;
+
+		}
+
+		img.post-image{
+			width:30vw;
+			max-width:30vw;
+			float:center;
+			margin-top:5vh;
+			margin-bottom:-3vh;
+		}
+
+		br{
+			line-height: 200%;
+		}
 		
+		.post-header{
+			margin-bottom:4vh;
+		}
+
 
 
 		
