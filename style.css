@@ -713,7 +713,24 @@
 			margin-bottom:4vh;
 		}
 
+		@media screen and (max-width:489px){
+			.post-date{
+				text-align:center;
+				margin-top:0vh;
+				margin-left:auto;
+				margin-right:auto;
+			}
 
+			.post-name{
+				text-align:center;
+				margin-top:7vh;
+				margin-left:auto;
+				margin-right:auto;
+			}
+		}
+
+	
+	/* The following is all the styles related to the gallery page */
 
 		
 
