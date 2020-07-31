@@ -818,7 +818,12 @@
 		line-height:2em;
 	}
 
-
+	@media screen and (max-width:540px){
+		.experience-years{
+			text-align:right;
+			margin-top:-2vh;
+		}
+	}
 
 
 
