@@ -788,7 +788,35 @@
 			position:relative;
 	}
 
+	.resume-content{
+		margin-left:8vw;
+		margin-right:8vw;
+	}
 
+
+	.resume-sections{
+		font-size: 1.25rem;
+	}
+
+	.resume-header-container{
+		text-align:center;
+		margin-top:6vh;
+
+	}
+
+	hr.resume-dividers{
+		margin:0;
+		margin-top:-3vh;
+	}
+
+	.experience-years{
+		float:right;
+		margin-top:-4vh;
+	}
+	
+	.experience-bullets{
+		line-height:2em;
+	}
 
 
 
